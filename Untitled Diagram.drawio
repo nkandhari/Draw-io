@@ -1,9 +1,105 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Page-1" id="966sL-P-x331s7SITP2g">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-32" value="" style="endArrow=none;html=1;rounded=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#990099;strokeWidth=6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="291" as="sourcePoint" />
+            <mxPoint x="741" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-19" value="" style="endArrow=none;html=1;rounded=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#990099;strokeWidth=6;" edge="1" parent="1" source="g_S8RXtgbiGNaqlVA5DE-2" target="g_S8RXtgbiGNaqlVA5DE-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="410" as="sourcePoint" />
+            <mxPoint x="490" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-4" value="FASTQC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="175" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-5" value="Trimgalore" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="175" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-7" value="FASTQC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="333.5" y="175" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-8" value="sortmeRNA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="460" y="174" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-11" value="kraken2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="610" y="174" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-13" value="rCorrector" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="740" y="174" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-14" value="RNABloom" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="75" y="480" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-15" value="Trinity" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="75" y="545" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-17" value="Pre-assembly quality control" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="6" y="100" width="294" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="164" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-1" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;container=1;" vertex="1" parent="g_S8RXtgbiGNaqlVA5DE-21">
+          <mxGeometry x="6" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-2" value=".fastq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#000000;fontColor=#FFFFFF;rounded=1;glass=0;shadow=0;" vertex="1" parent="g_S8RXtgbiGNaqlVA5DE-21">
+          <mxGeometry y="16" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="260" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-23" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;container=1;" vertex="1" parent="g_S8RXtgbiGNaqlVA5DE-22">
+          <mxGeometry x="6" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-24" value=".bam" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#000000;fontColor=#FFFFFF;rounded=1;glass=0;shadow=0;" vertex="1" parent="g_S8RXtgbiGNaqlVA5DE-22">
+          <mxGeometry y="16" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-25" value="LongQC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-26" value="BGI Trim" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-27" value="LongQC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="333.5" y="270.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-28" value="sortmeRNA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="460" y="269.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-29" value="kraken2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="610" y="269.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-30" value="rCorrector" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="740" y="269.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-33" value="De novo transcriptome assembly" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="6" y="390" width="334" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-34" value="Post-assembly quality control" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="6" y="660" width="294" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-35" value="BUSCO" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="85" y="741" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="5" y="730" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-37" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;container=1;" vertex="1" parent="g_S8RXtgbiGNaqlVA5DE-36">
+          <mxGeometry x="6" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-38" value=".fastq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#000000;fontColor=#FFFFFF;rounded=1;glass=0;shadow=0;" vertex="1" parent="g_S8RXtgbiGNaqlVA5DE-36">
+          <mxGeometry y="16" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g_S8RXtgbiGNaqlVA5DE-40" value="seqkit --stats" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="740" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
